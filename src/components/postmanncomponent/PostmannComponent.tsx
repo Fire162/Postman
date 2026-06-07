@@ -1188,7 +1188,7 @@ const PostmannComponent: React.FC<PostmannComponentProps> = () => {
       >
         <div
           className="modal-content"
-          style={{ width: "100%", maxWidth: "400px" }}
+          style={{ width: "100%" }}
         >
           <button className="close-button" onClick={closeModal}>
             &times;
@@ -1208,7 +1208,7 @@ const PostmannComponent: React.FC<PostmannComponentProps> = () => {
         overlayClassName="donation-modal-overlay"
         shouldCloseOnOverlayClick={true}
       >
-        <div className="modal-content" style={{ width: "100%", maxWidth: "26rem" }}>
+        <div className="modal-content" style={{ width: "100%" }}>
           <button className="close-button" onClick={closeModal}>
             &times;
           </button>
@@ -1227,7 +1227,7 @@ const PostmannComponent: React.FC<PostmannComponentProps> = () => {
         overlayClassName="donation-modal-overlay"
         shouldCloseOnOverlayClick={true}
       >
-        <div className="modal-content" style={{ width: "100%", maxWidth: "26rem" }}>
+        <div className="modal-content" style={{ width: "100%" }}>
           <button className="close-button" onClick={closeModal}>
             &times;
           </button>
