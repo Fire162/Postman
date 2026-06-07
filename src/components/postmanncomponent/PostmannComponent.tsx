@@ -797,7 +797,7 @@ const PostmannComponent: React.FC<PostmannComponentProps> = () => {
         <div className="postmann-title-container">
           <h2 className="postmann-title">Postmann</h2>
           <div className="postmann-version-container">
-            <p className="postmann-version">v 1.2.0 </p>
+            <p className="postmann-version">v 1.2.1 </p>
             <a
               href="#"
               className="postmann-title-anchor postmann-info-circle"
